@@ -20,8 +20,10 @@ public class Program
         //Console.WriteLine(letraMusica.EndsWith("say"));
         //Console.WriteLine(letraMusica.EndsWith("you"));
 
-        bool comecaComVoce = letraMusica.StartsWith("you");
-        Console.WriteLine(comecaComVoce);
+        //bool comecaComVoce = letraMusica.StartsWith("you");
+        //Console.WriteLine(comecaComVoce);
+
+        Console.WriteLine(letraMusica.IndexOf("goodbye"));
 
 
 
